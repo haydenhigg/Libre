@@ -31,7 +31,7 @@ class Window
         if flags.is_a?(Array(Int32))
             flags = flags.map {|i| i = i.to_u8}
         else
-            flags = [flags].map {|i| i = i.to_u8}
+            flags = [flags.to_u8]
         end
 
         Libray.set_config_flags(flags)
