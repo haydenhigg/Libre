@@ -15,7 +15,7 @@ Color.create(r, g, b, a) # if a is not defined, then it's 255
 
 ### Using built-in colors
 
-You can use any of 26 built-in colors, created with RGB values that are consisten with Raylib's.
+You can use any of 26 built-in colors, created with RGB values that are consistent with Raylib's.
 ```ruby
 Color.red
 Color.orange
