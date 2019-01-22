@@ -2,6 +2,13 @@
 
 A Crystal graphics library that is built on Raylib.
 
+## Usage
+
+If on Unix systems (mac, Linus, etc.), you can run `git clone https://github.com/haydenhigg/Libre` while within your project. Then, put this at the top of your file:
+```ruby
+require "./Libre/src/*
+```
+
 ## Color
 
 You can't provide colors to any graphics methods except with a ColorObject, which is what all of these methods return.
