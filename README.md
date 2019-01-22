@@ -6,7 +6,7 @@ A Crystal graphics library that is built on Raylib.
 
 If on Unix systems (mac, Linus, etc.), you can run `git clone https://github.com/haydenhigg/Libre` while within your project. Then, put this at the top of your file:
 ```ruby
-require "./Libre/src/*
+require "./Libre/src/*"
 ```
 
 ## Color
